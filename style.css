@@ -59,3 +59,45 @@ button:hover {
 	background-color: #26262c;
 	border-color: #f2adfa;
 }
+.links {
+	width: 40px;
+	position: fixed;
+	bottom: 0px;
+	left: 40px;
+	right: auto;
+	z-index: 10;
+	color: #cdb7f6;
+}
+ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul:after {
+	content: '';
+	display: block;
+	width: 1px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #adbbfa;
+}
+li:last-of-type {
+	margin-bottom: 20px;
+}
+
+a {
+	display: flex;
+	padding: 10px;
+	transition: all 0.45s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+a:focus,
+a:hover {
+	transform: translateY(-10px);
+}
+svg {
+	width: 50px;
+	height: 50px;
+}

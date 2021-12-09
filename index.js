@@ -13,10 +13,6 @@ btn1.addEventListener('click', function() {
 	experiences.style.display = 'none';
 	projects.style.display = 'none';
 	skills.style.display = 'none';
-	// if (abt_me.style.display !== 'none') {
-	// 	abt_me.style.display = 'none';
-	// 	experiences.style.display = 'block';
-	// } else {}
 });
 
 btn2.addEventListener('click', function() {
