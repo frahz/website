@@ -1,3 +1,49 @@
-baseURL = 'http://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'frahz'
+author = "Franklin Abreu"
+copyright = "© 2022 Franklin Abreu"
+
+theme = "terminal"
+paginate = 5
+
+sectionPagesMenu = "main"
+
+[params]
+
+    contentTypeName = "posts"
+    themeColor = "pink"
+
+    # if you set this to 0, only submenu trigger will be visible
+    showMenuItems = 2
+
+    # show selector to switch language
+    showLanguageSelector = false
+
+    # set theme to full screen width
+    fullWidthTheme = false
+
+    # center theme with default width
+    centerTheme = true
+
+    # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+    # then the file will be used as a cover automatically.
+    # With this option you don't have to put the `cover` param in a front-matter.
+    autoCover = true
+
+    # set post to show the last updated
+    # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+    showLastUpdated = false
+
+    # set a custom favicon (default is a `themeColor` square)
+    favicon = "images/favicon.ico"
+
+[params.logo]
+    logoText = "frahz"
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 10
