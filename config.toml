@@ -1,8 +1,8 @@
-baseURL = '/'
+baseURL = 'frahz.dev'
 languageCode = 'en-us'
 title = 'frahz'
-author = "Franklin Abreu"
-copyright = "© 2022 Franklin Abreu"
+author = "frahz"
+copyright = "© 2022 frahz"
 
 theme = "terminal"
 paginate = 5
