@@ -1,10 +1,10 @@
 +++
 title = "Making this site"
-date = "2022-07-02T11:06:29-07:00"
+date = "2022-07-27T11:06:29-07:00"
 author = ""
 authorTwitter = "" #do not include @
 cover = ""
-tags = ["Hugo", "tech"]
+tags = ["hugo", "tech"]
 keywords = ["", ""]
 description = ""
 showFullContent = false
