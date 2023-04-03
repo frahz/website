@@ -20,7 +20,7 @@ mode = "dark"
 customcss = ["css/custom.css", "css/syntax.css"]
 katex = true
 # set a custom favicon (default is a `themeColor` square)
-favicon = "images/favicon.ico"
+favicon = "/images/favicon.ico"
 
 [[params.social]]
 name = "GitHub"
