@@ -7,14 +7,17 @@ copyright = "© frahz"
 theme = "archie"
 paginate = 3
 
-# sectionPagesMenu = "main"
-pygmentsstyle = "catppuccin-macchiato"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+[markup]
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+noClasses = false
+style = "catppuccin-macchiato"
+
 
 [params]
 mode = "dark"
-customcss = ["css/custom.css"]
+customcss = ["css/custom.css", "css/syntax.css"]
 katex = true
 # set a custom favicon (default is a `themeColor` square)
 favicon = "images/favicon.ico"
