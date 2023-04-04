@@ -1,0 +1,13 @@
+/* Markdown */
+:root {
+    --bordercl: #eba0ac;
+    --darkMaincolor: #f5c2e7;
+}
+
+::selection {
+    background: #cba6f7;
+}
+
+body {
+    background-color: #1e1e2e;
+}
