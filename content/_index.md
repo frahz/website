@@ -1,6 +1,6 @@
 +++
-layout = "index"
-framed = true
+title = "Hello"
+author = "frahz"
 +++
 
 # Hello!
