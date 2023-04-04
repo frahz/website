@@ -2,48 +2,53 @@ baseURL = 'https://frahz.dev/'
 languageCode = 'en-us'
 title = 'frahz'
 author = "frahz"
-copyright = "© 2022 frahz"
+copyright = "© frahz"
 
-theme = "terminal"
-paginate = 5
+theme = "archie"
+paginate = 3
 
-sectionPagesMenu = "main"
+[markup]
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+noClasses = false
+style = "catppuccin-macchiato"
+
 
 [params]
+mode = "dark"
+customcss = ["css/custom.css", "css/syntax.css"]
+katex = true
+# set a custom favicon (default is a `themeColor` square)
+favicon = "/images/favicon.ico"
 
-    contentTypeName = "posts"
-    themeColor = "pink"
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/frahz"
 
-    # if you set this to 0, only submenu trigger will be visible
-    showMenuItems = 2
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com/frahz"
 
-    # show selector to switch language
-    showLanguageSelector = false
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/frank-abreu/"
 
-    # set theme to full screen width
-    fullWidthTheme = false
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 1
 
-    # center theme with default width
-    centerTheme = true
+[[menu.main]]
+name = "posts"
+url = "/posts"
+weight = 2
 
-    # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-    # then the file will be used as a cover automatically.
-    # With this option you don't have to put the `cover` param in a front-matter.
-    autoCover = true
-
-    # set post to show the last updated
-    # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-    showLastUpdated = false
-
-    # set a custom favicon (default is a `themeColor` square)
-    favicon = "images/favicon.ico"
-
-[params.logo]
-    logoText = "frahz"
-
-[menu]
-    [[menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about/"
-        weight = 10
+[[menu.main]]
+identifier = "about"
+name = "about"
+url = "/about/"
+weight = 10
