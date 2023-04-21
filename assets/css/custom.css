@@ -11,3 +11,32 @@
 body {
     background-color: #1e1e2e;
 }
+
+pre {
+    background-color: #24273a;
+}
+
+blockquote {
+    border-color: #f38ba8;
+}
+
+
+code[class*="language-"],
+pre[class*="language-"] {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
+.highlight pre code[class*='language-rust']::before{
+    content: 'rust';
+    background: #fab387;
+    color: #1e1e2e;
+}
+
+.highlight pre code[class*='language-c']::before,
+.highlight pre code[class*='language-cpp']::before{
+    content: 'c/cpp';
+    background: #a6e3a1;
+    color: #1e1e2e;
+}
