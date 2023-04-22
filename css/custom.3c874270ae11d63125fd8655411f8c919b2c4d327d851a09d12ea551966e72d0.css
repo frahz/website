@@ -1,4 +1,12 @@
-@import url("https://iosevka-webfonts.github.io/iosevka/iosevka.css");
+@font-face {
+	font-family: "Iosevka Web";
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("../fonts/iosevka.woff2") format("woff2");
+}
+
 /* Markdown */
 :root {
     --bordercl: #eba0ac;
