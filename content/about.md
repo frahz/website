@@ -9,7 +9,7 @@ I'm just a guy that enjoys anything software and tinkering with hardware. Also, 
 
 -   [Github](https://github.com/frahz)
 -   [LinkedIn](https://www.linkedin.com/in/frank-abreu/)
--   Discord: frahz#1800
+-   Discord: frahz
 
 ## Skills and Technologies
 
