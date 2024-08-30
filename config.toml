@@ -5,7 +5,7 @@ author = "frahz"
 copyright = "© frahz"
 
 theme = "archie"
-paginate = 3
+paginate = 10
 
 [markup]
 [markup.highlight]
@@ -36,6 +36,16 @@ url = "https://gitlab.com/frahz"
 name = "LinkedIn"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/frank-abreu/"
+
+[[params.social]]
+name = "Mastodon"
+icon = "book-open"
+url = "https://hachyderm.io/@frahz"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "https://frahz.dev/index.xml"
 
 [[menu.main]]
 name = "home"

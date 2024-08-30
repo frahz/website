@@ -8,7 +8,7 @@ date = "2023-03-31"
 I'm just a guy that enjoys anything software and tinkering with hardware. Also, I really like playing volleyball, soccer, anime, and video games. Here are some of my links:
 
 -   [Github](https://github.com/frahz)
--   [LinkedIn](https://www.linkedin.com/in/frank-abreu/)
+-   [Linkedin](https://www.linkedin.com/in/frank-abreu/)
 -   Discord: frahz
 
 ## Skills and Technologies
