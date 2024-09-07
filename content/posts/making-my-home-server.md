@@ -91,17 +91,47 @@ I needed a way to remotely access this new media, so the easy choice was to use 
 
 # Using Raspberry Pi Zero W to wake/sleep main server (August 2023)
 
-TODO
+Living in a place with the highest electricity prices in the US, I can't be running my beefy server the entire time.
+The server idles at around 40 watts, meaning that running the server 24/7 at the current price of \$0.60/KWH, would cost around 18 per month.
+
+So, I needed a way to remotely manage when the server should be on.
+I had a Raspberry Pi Zero W laying around so i decided to put it to use, as I know they consume low power.
+I quickly made two services, one for the server and one for the RPI.
+
+The program running on the server, named `sugoi`, would just run a lightweight web server that listens for a specific command, that would put the server to sleep.
+
+The program on the RPI, name `nemui`, would be a light webserver that either wakes up or sleeps the main server depending on the path that was queried.
+To wake up the server, I enabled [Wake-on-LAN](https://todo) on the server, and from the RPI i would send the magic packet to the MAC address of the server, waking it up.
+For sleeping, the RPI would run a command through SSH to make the server sleep, the command `systemctl suspend`.
+
+After getting these services up and running, I could wake/sleep the server by just accessing the http endpoint running on the RPI.
+This was quite helpful, as now the server only consumes around 1 W while sleeping, and I can turn it on when I want to watch something, or use one of the other services.
+But, this meant that ALL my services are down when the server is asleep, which was annoying sometimes as I would like to access some of the ones that don't require strong compute and this leads to the next section.
 
 # Distributing services to a lower power PC (November 2023)
 
-TODO
+Last year, I started hearing some buzz around Mini PCs, specifically ones that provide adequate compute and really good power consumption.
+The primary one being the ones with the Intel N100 CPU, which comes with 4 cores and idle around 6 W, which is good enough for me run it 24/7 as it won't cost an arm and leg.
+I snapped one up from with 16GB of RAM, and a 500GB SSD for around \$160 USD.
 
-# Moving Main Server to new PC[Using NixOS btw] (January 2024)
+Around this I also started getting interested in [Nix](https://todo), which provides ways to create reproducible builds and environment, all done declaratively.
+I loaded it up on this new mini PC to see what all the rage was about.
 
-TODO
+First, I started with the basic of just try to add packages declaratively, and so on. Then, branching into running and configuring programs and services using the Nix language.
+Once I got familiarized with the basics, I started moving some of the services that I would like to keep online 24/7, like my dashboard, RSS feed, bookmark manager, and DNS server.
+I declared these services using OCI Containers, with Docker under the hood, initially as that was the easiest way I found at the time to port them to the Nix way.
+Over time, I started moving some of them to native Native NixOS services, which are more easliy configured and follow the Nix way of doing things.
 
-# Current Status (July 2024)
+# Moving Main Server to new PC(NixOS btw) (January 2024)
+
+Later down the line I decided that I enjoyed declaring my services using Nix instead of running them on a mutable distro, like I was doing currently on my main server.
+So, I took this opportunity to build a new PC that takes less space, supports more hard drives, and use more modern hardware with support for newer and more efficient hardware video decoding.
+
+For the case I went with the [Jonsbo N2](https://todo) case, do it supporting up to 5 drives with an easy way to mount them.
+I went with an Intel i5-12400 for the CPU and 32 GB of RAM. This gives me some headroom to run a decent amount of services, and possibly down the line use it as a build server.
+
+
+# Current Status (August 2024)
 
 TODO
 
