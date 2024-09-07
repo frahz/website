@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hello on frahz</title><link>https://frahz.dev/</link><description>Recent content in Hello on frahz</description><generator>Hugo</generator><language>en-us</language><copyright>© frahz</copyright><lastBuildDate>Fri, 31 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://frahz.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://frahz.dev/about/</link><pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate><guid>https://frahz.dev/about/</guid><description>About me I&amp;rsquo;m just a guy that enjoys anything software and tinkering with hardware. Also, I really like playing volleyball, soccer, anime, and video games. Here are some of my links:
-Github Linkedin Discord: frahz Skills and Technologies Programming Languages: Java, C++, C, Rust, Python Technologies: Git, Linux, Android, Node.js (very little) Topics of Interest: microcontrollers, embedded devices, Bluetooth, low-level programming, want to try to get into networking or compilers/interpreters. Work Experience Software Engineer | Qualcomm | June 2022 - Present Develop and maintain Bluetooth drivers for Android devices.</description></item><item><title>Making this site</title><link>https://frahz.dev/posts/making-site/</link><pubDate>Wed, 27 Jul 2022 11:06:29 -0700</pubDate><guid>https://frahz.dev/posts/making-site/</guid><description>This site will primarily have some content about tech/cs topics that currently interest me and also serve as a resume site.
-import numpy as np def hello(num: int): return num * 2 num = 5 print(f&amp;#34;hello, num : {hello(num)}&amp;#34;)</description></item><item><title>Typography</title><link>https://frahz.dev/posts/test-things/</link><pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate><guid>https://frahz.dev/posts/test-things/</guid><description>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
-Heading 1 Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hello on frahz</title><link>https://frahz.dev/</link><description>Recent content in Hello on frahz</description><generator>Hugo</generator><language>en-us</language><copyright>© frahz</copyright><lastBuildDate>Fri, 31 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://frahz.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://frahz.dev/about/</link><pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate><guid>https://frahz.dev/about/</guid><description>&lt;h2 id="about-me">About me&lt;/h2>
+&lt;p>I&amp;rsquo;m just a guy that enjoys anything software and tinkering with hardware. Also, I really like playing volleyball, soccer, anime, and video games. Here are some of my links:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/frahz">Github&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/in/frank-abreu/">Linkedin&lt;/a>&lt;/li>
+&lt;li>Discord: frahz&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills-and-technologies">Skills and Technologies&lt;/h2>
+&lt;ul>
+&lt;li>Programming Languages: Java, C++, C, Rust, Python&lt;/li>
+&lt;li>Technologies: Git, Linux, Android, Node.js (very little)&lt;/li>
+&lt;li>Topics of Interest: microcontrollers, embedded devices, Bluetooth, low-level programming, want to try to get into networking or compilers/interpreters.&lt;/li>
+&lt;/ul>
+&lt;h2 id="work-experience">Work Experience&lt;/h2>
+&lt;h3 id="software-engineer--qualcomm--june-2022---present">&lt;strong>Software Engineer | Qualcomm | June 2022 - Present&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Develop and maintain Bluetooth drivers for Android devices.&lt;/li>
+&lt;li>Port and integrate the Bluetooth stack to a new system-on-a-chip (SoC).&lt;/li>
+&lt;/ul>
+&lt;h3 id="hardware-engineer-intern--repone-strength--jan-2022---may-2022">&lt;strong>Hardware Engineer Intern | RepOne Strength | Jan 2022 - May 2022&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Lead the development and testing of hardware components for a 3D motion sensor. Ensure the reproducibility of all processes through comprehensive documentation.&lt;/li>
+&lt;li>Collaborate with colleagues to identify and resolve defects during testing. Ensure the highest quality for each component.&lt;/li>
+&lt;/ul>
+&lt;h3 id="undergrad-research-assistant--eps-lab-at-fiu--jan-2021---apr-2022">&lt;strong>Undergrad Research Assistant | EPS Lab at FIU | Jan 2021 - Apr 2022&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Worked with a team to develop a learning environment for a big organization to improve the problem-solving skills of their workers.&lt;/li>
+&lt;li>Worked on the Advanced research on Integrating Emerging and Existing Systems (ARIES) team at EPS to do research on smart power grids and on how to connect multiple complex power systems into one, that can share information with one another.&lt;/li>
+&lt;/ul>
+&lt;h2 id="projects">Projects&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/frahz/rauly.rs">rauly.rs&lt;/a> (2021-2022), a Discord bot that can send the &lt;a href="dictionary.com">Word of the Day&lt;/a> at a designated time each day.&lt;/li>
+&lt;li>&lt;a href="https://github.com/frahz/cyber-security">RF Hacking&lt;/a> (2019), use an Arduino MCU, with a transmitter and receiver, to intercept RF signals transmitted by a car key fob and then reuse that signal later on to open the car.&lt;/li>
+&lt;li>&lt;a href="https://github.com/SparkDevTeams/robotics-spring-21">Search and Rescue Robot&lt;/a> (2020-2021), control a rover, with live feed capabilities, using an Android app that communicates to a microcontroller using the MQTT protocol. Using that same microcontroller, we can send the real-time sensor data to the Android app, so that it can be displayed on the dashboard.&lt;/li>
+&lt;/ul>
+&lt;h2 id="miscellaneous">Miscellaneous&lt;/h2>
+&lt;p>&lt;strong>TODO&lt;/strong>&lt;/p></description></item><item><title>Making this site</title><link>https://frahz.dev/posts/making-site/</link><pubDate>Wed, 27 Jul 2022 11:06:29 -0700</pubDate><guid>https://frahz.dev/posts/making-site/</guid><description>&lt;p>This site will primarily have some content about tech/cs topics that currently interest me and also serve as a resume site.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-py" data-lang="py">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">numpy&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">np&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">hello&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">num&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">num&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="mi">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">num&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">5&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sa">f&lt;/span>&lt;span class="s2">&amp;#34;hello, num : &lt;/span>&lt;span class="si">{&lt;/span>&lt;span class="n">hello&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">num&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Typography</title><link>https://frahz.dev/posts/test-things/</link><pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate><guid>https://frahz.dev/posts/test-things/</guid><description>&lt;p>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.&lt;/p>
+&lt;h1 id="heading-1">Heading 1&lt;/h1>
+&lt;p>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.&lt;/p></description></item></channel></rss>
