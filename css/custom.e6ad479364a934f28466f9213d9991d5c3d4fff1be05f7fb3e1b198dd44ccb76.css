@@ -55,6 +55,10 @@ pre[class*="language-"] {
     background-color: #313244;
 }
 
+.toc {
+    background-color: #1e1e2e;
+}
+
 code {
     background-color: #252739;
     color: #a6da95;
