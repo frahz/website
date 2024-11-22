@@ -6,13 +6,14 @@ keywords = ["", ""]
 description = ""
 readingTime = true
 draft = true
+toc = true
 +++
 
 In 2023, I got an itch to see what it would be like to have Linux installed on a bare metal PC, and I had the perfect situation for this as I had my old PC just laying around collecting dust after I had to decommision it due to HDD failure. Over the course of the year, this turned more into a home lab as I kept adding more services and hardware into the mix.
 
-# tldr: Current Setup
+## tldr: Current Setup
 
-## Main Server - **inari**
+### Main Server - **inari**
 
 [Name origin](https://mythopedia.com/topics/inari): Sounded cool
 
@@ -22,7 +23,7 @@ In 2023, I got an itch to see what it would be like to have Linux installed on a
 - Server Storage: 2x 14TB WD Red Plus HDD
 - Case: Jonsbo N2
 
-## Mini Server - **chibi**
+### Mini Server - **chibi**
 
 [Name origin](https://en.wikipedia.org/wiki/Chibi_(style)): its a *Mini* PC
 
@@ -32,7 +33,7 @@ In 2023, I got an itch to see what it would be like to have Linux installed on a
 - Boot Drive: OEM 512 GB NVME SSD
 - Extra Storage: Samsung 860 Evo 500GB SATA SSD
 
-# The Beginning (January 2023)
+## The Beginning (January 2023)
 
 I dusted off my old PC([yanai](#main-server---yanai)) and loaded [Pop!\_OS](https://pop.system76.com/) on it.
 At first, I just installed the common Desktop Apps that one would use and familiarized my self with Pop!\_OS.
@@ -40,7 +41,7 @@ It was my first real experience using a Linux Desktop, I'll say that most stuff 
 
 But, I soon got bored and stopped using it.
 
-# Turning it into a my Home Server (February 2023)
+## Turning it into a my Home Server (February 2023)
 
 Around February 2023, my friends were getting back into [Valheim](https://www.valheimgame.com/) and at the time,
 it was one of my friends hosting the server only when he was online.
@@ -79,7 +80,7 @@ services:
 I ran `docker compose up -D` and the service was up and running.
 I then had to open some ports on my router so my friends could access the server and it was smooth sailing from there on out.
 
-# Adding more services (March 2023)
+## Adding more services (March 2023)
 
 After a month or so of hosting the Valheim server, I started looking around to see what else I could do selfhost.
 I stumbled upon [r/selfhosted](https://www.reddit.com/r/selfhosted/) like any other person would.
@@ -89,7 +90,7 @@ With this media stack, I was able to automate the downloads of Seasonal Linux IS
 
 I needed a way to remotely access this new media, so the easy choice was to use [Tailscale](https://tailscale.com/) even if it is not fully selfshosted, unless I use something like [Headscale](https://github.com/juanfont/headscale).
 
-# Using Raspberry Pi Zero W to wake/sleep main server (August 2023)
+## Using Raspberry Pi Zero W to wake/sleep main server (August 2023)
 
 Living in a place with the highest electricity prices in the US, I can't be running my beefy server the entire time.
 The server idles at around 40 watts, meaning that running the server 24/7 at the current price of \$0.60/KWH, would cost around 18 per month.
@@ -108,7 +109,7 @@ After getting these services up and running, I could wake/sleep the server by ju
 This was quite helpful, as now the server only consumes around 1 W while sleeping, and I can turn it on when I want to watch something, or use one of the other services.
 But, this meant that ALL my services are down when the server is asleep, which was annoying sometimes as I would like to access some of the ones that don't require strong compute and this leads to the next section.
 
-# Distributing services to a lower power PC (November 2023)
+## Distributing services to a lower power PC (November 2023)
 
 Last year, I started hearing some buzz around Mini PCs, specifically ones that provide adequate compute and really good power consumption.
 The primary one being the ones with the Intel N100 CPU, which comes with 4 cores and idle around 6 W, which is good enough for me run it 24/7 as it won't cost an arm and leg.
@@ -122,7 +123,7 @@ Once I got familiarized with the basics, I started moving some of the services t
 I declared these services using OCI Containers, with Docker under the hood, initially as that was the easiest way I found at the time to port them to the Nix way.
 Over time, I started moving some of them to native Native NixOS services, which are more easliy configured and follow the Nix way of doing things.
 
-# Moving Main Server to new PC(NixOS btw) (January 2024)
+## Moving Main Server to new PC(NixOS btw) (January 2024)
 
 Later down the line I decided that I enjoyed declaring my services using Nix instead of running them on a mutable distro, like I was doing currently on my main server.
 So, I took this opportunity to build a new PC that takes less space, supports more hard drives, and use more modern hardware with support for newer and more efficient hardware video decoding.
@@ -131,17 +132,17 @@ For the case I went with the [Jonsbo N2](https://todo) case, do it supporting up
 I went with an Intel i5-12400 for the CPU and 32 GB of RAM. This gives me some headroom to run a decent amount of services, and possibly down the line use it as a build server.
 
 
-# Current Status (August 2024)
+## Current Status (August 2024)
 
 TODO
 
-# Future Plans
+## Future Plans
 
 TODO
 
-# Out of Commission PCs
+## Out of Commission PCs
 
-## Old Main Server - **yanai**
+### Old Main Server - **yanai**
 
 [Name origin](https://en.wikipedia.org/wiki/Yanai,_Yamaguchi): Sounded cool
 
@@ -150,7 +151,7 @@ TODO
 - Boot Drive: Samsung 960 Evo 256GB NVME SSD
 - Server Storage: 2x 14TB WD Red Plus HDD
 
-## DO VPS Server - **kumo**
+### DO VPS Server - **kumo**
 
 [Name origin](https://www.nihongomaster.com/japanese/dictionary/word/16254/kumo-%E9%9B%B2-%E3%81%8F%E3%82%82): its a server on the cloud
 
