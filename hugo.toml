@@ -14,7 +14,6 @@ guessSyntax = true
 noClasses = false
 style = "catppuccin-macchiato"
 
-
 [params]
 mode = "dark"
 customcss = ["css/custom.css", "css/macchiato-chroma-style.css"]
