@@ -6,7 +6,7 @@ keywords = ["", ""]
 description = ""
 readingTime = true
 draft = true
-toc = true
+toc = false
 +++
 
 In 2023, I got an itch to see what it would be like to have Linux installed on a bare metal PC, and I had the perfect situation for this as I had my old PC just laying around collecting dust after I had to decommision it due to HDD failure. Over the course of the year, this turned more into a home lab as I kept adding more services and hardware into the mix.
@@ -15,7 +15,7 @@ In 2023, I got an itch to see what it would be like to have Linux installed on a
 
 ### Main Server - **inari**
 
-[Name origin](https://mythopedia.com/topics/inari): Sounded cool
+[Name Origin](https://mythopedia.com/topics/inari): Sounded cool
 
 - CPU: Intel i5-12400
 - RAM: 32GB 3200MHz
@@ -25,7 +25,7 @@ In 2023, I got an itch to see what it would be like to have Linux installed on a
 
 ### Mini Server - **chibi**
 
-[Name origin](https://en.wikipedia.org/wiki/Chibi_(style)): its a *Mini* PC
+[Name Origin](https://en.wikipedia.org/wiki/Chibi_(style)): It's a *Mini* PC
 
 - Brand: Beelink Mini PC
 - CPU: Intel N100
@@ -115,7 +115,7 @@ Last year, I started hearing some buzz around Mini PCs, specifically ones that p
 The primary one being the ones with the Intel N100 CPU, which comes with 4 cores and idle around 6 W, which is good enough for me run it 24/7 as it won't cost an arm and leg.
 I snapped one up from with 16GB of RAM, and a 500GB SSD for around \$160 USD.
 
-Around this I also started getting interested in [Nix](https://todo), which provides ways to create reproducible builds and environment, all done declaratively.
+Around this time, I also started getting interested in [Nix](https://nixos.org/), which provides ways to create reproducible builds and environment, all done declaratively.
 I loaded it up on this new mini PC to see what all the rage was about.
 
 First, I started with the basic of just try to add packages declaratively, and so on. Then, branching into running and configuring programs and services using the Nix language.
@@ -128,7 +128,7 @@ Over time, I started moving some of them to native Native NixOS services, which 
 Later down the line I decided that I enjoyed declaring my services using Nix instead of running them on a mutable distro, like I was doing currently on my main server.
 So, I took this opportunity to build a new PC that takes less space, supports more hard drives, and use more modern hardware with support for newer and more efficient hardware video decoding.
 
-For the case I went with the [Jonsbo N2](https://todo) case, do it supporting up to 5 drives with an easy way to mount them.
+For the case I went with the [Jonsbo N2](https://www.jonsbo.com/en/products/N2White.html) case, do it supporting up to 5 drives with an easy way to mount them.
 I went with an Intel i5-12400 for the CPU and 32 GB of RAM. This gives me some headroom to run a decent amount of services, and possibly down the line use it as a build server.
 
 
@@ -144,7 +144,7 @@ TODO
 
 ### Old Main Server - **yanai**
 
-[Name origin](https://en.wikipedia.org/wiki/Yanai,_Yamaguchi): Sounded cool
+[Name Origin](https://en.wikipedia.org/wiki/Yanai,_Yamaguchi): Sounded cool
 
 - CPU: Intel i7-7700K
 - RAM: 16GB 3200MHz
@@ -153,7 +153,7 @@ TODO
 
 ### DO VPS Server - **kumo**
 
-[Name origin](https://www.nihongomaster.com/japanese/dictionary/word/16254/kumo-%E9%9B%B2-%E3%81%8F%E3%82%82): its a server on the cloud
+[Name Origin](https://www.nihongomaster.com/japanese/dictionary/word/16254/kumo-%E9%9B%B2-%E3%81%8F%E3%82%82): It's a server on the cloud
 
 - $6/mo Digital Ocean Basic Droplet
 

@@ -5,7 +5,7 @@ author = "frahz"
 copyright = "© frahz"
 
 theme = "archie"
-paginate = 10
+pagination.pagerSize = 10
 
 [markup]
 [markup.highlight]
@@ -17,34 +17,35 @@ style = "catppuccin-macchiato"
 
 [params]
 mode = "dark"
-customcss = ["css/custom.css", "css/syntax.css"]
+customcss = ["css/custom.css", "css/macchiato-chroma-style.css"]
 katex = true
 # set a custom favicon (default is a `themeColor` square)
 favicon = "/images/favicon.ico"
+toc = false
 
 [[params.social]]
 name = "GitHub"
-icon = "github"
+icon = "simple:github"
 url = "https://github.com/frahz"
 
 [[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/frahz"
-
-[[params.social]]
 name = "LinkedIn"
-icon = "linkedin"
-url = "https://www.linkedin.com/in/frank-abreu/"
+icon = "simple:linkedin"
+url = "https://www.linkedin.com/in/abreuf/"
 
 [[params.social]]
 name = "Mastodon"
-icon = "book-open"
+icon = "simple:mastodon"
 url = "https://hachyderm.io/@frahz"
 
 [[params.social]]
+name = "Bluesky"
+icon = "simple:bluesky"
+url = "https://bsky.app/profile/frahz.dev"
+
+[[params.social]]
 name = "RSS"
-icon = "rss"
+icon = "simple:rss"
 url = "https://frahz.dev/index.xml"
 
 [[menu.main]]
