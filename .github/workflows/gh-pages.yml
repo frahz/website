@@ -14,7 +14,6 @@ jobs:
         steps:
             - uses: actions/checkout@v4
               with:
-                  token: ${{ secrets.ION_PAT }}
                   submodules: true # Fetch Hugo themes (true OR recursive)
                   fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 

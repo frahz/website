@@ -1,0 +1,17 @@
+<header>
+  <div class="main">
+    <a href="{{ absLangURL "/" }}">{{ .Site.Title }}</a>
+  </div>
+  <nav>
+    {{ range .Site.Menus.main }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+
+    <div id="in_posts" style="display: none">
+      <span>|</span>
+      <a href="javascript:function_display_toc()" id="head_toc_switch">
+        Hide TOC
+      </a>
+    </div>
+  </nav>
+</header>

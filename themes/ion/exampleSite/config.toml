@@ -1,0 +1,52 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Ion"
+theme="ion"
+copyright = "© frahz"
+
+[markup]
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+noClasses = false
+style = "catppuccin-macchiato"
+
+[params]
+	mode="auto"
+	useCDN=false
+	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/frahz/ion)"
+
+[[params.social]]
+name = "GitHub"
+icon = "simple:github"
+url = "https://github.com/frahz/ion"
+
+[[params.social]]
+name = "Twitter"
+icon = "simple:x"
+url = "https://twitter.com/gohugoio/"
+
+[[params.social]]
+name = "GitLab"
+icon = "simple:gitlab"
+url = "https://gitlab.com/gitlab-org/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
