@@ -4,7 +4,7 @@ title = 'frahz'
 author = "frahz"
 copyright = "© frahz"
 
-theme = "archie"
+theme = "ion"
 pagination.pagerSize = 10
 
 [markup]
@@ -16,7 +16,7 @@ style = "catppuccin-macchiato"
 
 [params]
 mode = "dark"
-customcss = ["css/custom.css", "css/macchiato-chroma-style.css"]
+# customcss = ["css/custom.css", "css/macchiato-chroma-style.css"]
 katex = true
 # set a custom favicon (default is a `themeColor` square)
 favicon = "/images/favicon.ico"

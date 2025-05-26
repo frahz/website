@@ -1,12 +1,12 @@
 +++
 title = "Making My Home Server"
-date = 2024-01-01
-tags = ["server", "tech"]
+date = 2025-05-21
+tags = ["server", "tech", "selfhosting"]
 keywords = ["", ""]
 description = ""
 readingTime = true
 draft = true
-toc = false
+toc = true
 +++
 
 In 2023, I got an itch to see what it would be like to have Linux installed on a bare metal PC, and I had the perfect situation for this as I had my old PC just laying around collecting dust after I had to decommision it due to HDD failure. Over the course of the year, this turned more into a home lab as I kept adding more services and hardware into the mix.
@@ -102,7 +102,7 @@ I quickly made two services, one for the server and one for the RPI.
 The program running on the server, named `sugoi`, would just run a lightweight web server that listens for a specific command, that would put the server to sleep.
 
 The program on the RPI, name `nemui`, would be a light webserver that either wakes up or sleeps the main server depending on the path that was queried.
-To wake up the server, I enabled [Wake-on-LAN](https://todo) on the server, and from the RPI i would send the magic packet to the MAC address of the server, waking it up.
+To wake up the server, I enabled [Wake-on-LAN](https://en.wikipedia.org/wiki/Wake-on-LAN) on the server, and from the RPI i would send the magic packet to the MAC address of the server, waking it up.
 For sleeping, the RPI would run a command through SSH to make the server sleep, the command `systemctl suspend`.
 
 After getting these services up and running, I could wake/sleep the server by just accessing the http endpoint running on the RPI.
@@ -123,16 +123,24 @@ Once I got familiarized with the basics, I started moving some of the services t
 I declared these services using OCI Containers, with Docker under the hood, initially as that was the easiest way I found at the time to port them to the Nix way.
 Over time, I started moving some of them to native Native NixOS services, which are more easliy configured and follow the Nix way of doing things.
 
-## Moving Main Server to new PC(NixOS btw) (January 2024)
+## Switching to NixOS (January 2024)
 
-Later down the line I decided that I enjoyed declaring my services using Nix instead of running them on a mutable distro, like I was doing currently on my main server.
+Later down the line I decided that I enjoyed declaring my services using Nix instead of running them on a regular distro, like I was doing currently on my main server.
 So, I took this opportunity to build a new PC that takes less space, supports more hard drives, and use more modern hardware with support for newer and more efficient hardware video decoding.
 
 For the case I went with the [Jonsbo N2](https://www.jonsbo.com/en/products/N2White.html) case, do it supporting up to 5 drives with an easy way to mount them.
 I went with an Intel i5-12400 for the CPU and 32 GB of RAM. This gives me some headroom to run a decent amount of services, and possibly down the line use it as a build server.
+I moved the HDDs to this new PC and got to work.
 
+For the initial move, I just ported the docker containers as OCI containers for simplicity's sake until I got more familiar with the NixOS ecosystem.
 
-## Current Status (August 2024)
+## Status Update (August 2024)
+
+I started getting more accostumed to NixOS, now deploying native services and using some the secrets management flake utilities which allow me to keep everything in a single repository.
+Also moving services that started as OCI containers to native NixOS services (jellyfin, sonarr, radarr, etc.).
+Added couple new services like [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) for DNS blocking and [Caddy](https://caddyserver.com/) instead of Nginx Proxy Manager for reverse proxying my services.
+
+## Current Status (June 2025)
 
 TODO
 
@@ -151,7 +159,8 @@ TODO
 - Boot Drive: Samsung 960 Evo 256GB NVME SSD
 - Server Storage: 2x 14TB WD Red Plus HDD
 
-### DO VPS Server - **kumo**
+
+### Digital Ocean VPS - **kumo**
 
 [Name Origin](https://www.nihongomaster.com/japanese/dictionary/word/16254/kumo-%E9%9B%B2-%E3%81%8F%E3%82%82): It's a server on the cloud
 
