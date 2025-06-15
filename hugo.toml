@@ -26,15 +26,15 @@ name = "GitHub"
 icon = "simple:github"
 url = "https://github.com/frahz"
 
-[[params.social]]
-name = "LinkedIn"
-icon = "simple:linkedin"
-url = "https://www.linkedin.com/in/abreuf/"
-
-[[params.social]]
-name = "Mastodon"
-icon = "simple:mastodon"
-url = "https://hachyderm.io/@frahz"
+# [[params.social]]
+# name = "LinkedIn"
+# icon = "simple:linkedin"
+# url = "https://www.linkedin.com/in/abreuf/"
+#
+# [[params.social]]
+# name = "Mastodon"
+# icon = "simple:mastodon"
+# url = "https://hachyderm.io/@frahz"
 
 [[params.social]]
 name = "Bluesky"

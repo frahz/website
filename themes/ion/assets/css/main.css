@@ -79,7 +79,7 @@ ul > li::before {
 
 /* Images */
 img {
-  border: 1px solid var(--secondary-background);
+  /* border: 1px solid var(--secondary-background); */
   max-width: 100%;
 }
 
