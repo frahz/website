@@ -1,8 +1,16 @@
 +++
-title = "Hello"
-author = "frahz"
+title = "Hola"
+date = 2025-06-15
+draft = false
+showDate = false
 +++
 
-# Hello!
-
-This site is a work-in-progress. It's primarily going to be me playing around with `hugo` and trying to make new stuff.
+```ascii
+   ___       ___       ___       ___   
+  /\__\     /\  \     /\__\     /\  \  
+ /:/__/_   /::\  \   /:/  /    /::\  \ 
+/::\/\__\ /:/\:\__\ /:/__/    /::\:\__\
+\/\::/  / \:\/:/  / \:\  \    \/\::/  /
+  /:/  /   \::/  /   \:\__\     /:/  / 
+  \/__/     \/__/     \/__/     \/__/  
+```
