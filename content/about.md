@@ -1,6 +1,7 @@
 +++
 title = "About"
 date = "2025-05-20"
+showDate = false
 +++
 
 ## About me

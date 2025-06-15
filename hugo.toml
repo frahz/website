@@ -17,7 +17,6 @@ style = "catppuccin-macchiato"
 [params]
 mode = "dark"
 # customcss = ["css/custom.css", "css/macchiato-chroma-style.css"]
-katex = true
 # set a custom favicon (default is a `themeColor` square)
 favicon = "/images/favicon.ico"
 toc = false

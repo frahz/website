@@ -6,7 +6,14 @@
       <div class="post-content">
         <div class="title">
           <h1 class="title">{{ .Title }}</h1>
-          <div class="meta">Posted on {{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
+          {{ if .Params.showDate | default true }}
+          <div class="meta">
+            Posted on {{ dateFormat ":date_medium" .Date }} | Word Count: {{ .WordCount }} words | Reading Time: {{ .ReadingTime }} minutes
+            {{ if .Draft }}
+            <span class="draft-label">DRAFT</span>
+            {{ end }}
+          </div>
+          {{ end }}
         </div>
         {{ if isset .Params "tldr" }}
         <div class="tldr">
@@ -22,7 +29,7 @@
           <nav class="nav tags">
             <ul class="tags">
               {{ range .Params.tags }}
-              <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+              <li><a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
               {{ end }}
             </ul>
           </nav>
@@ -44,17 +51,17 @@
 
         if (toc_preference == "hide") {
           toc_.style.display = "none"
-          button_.innerText = "Show Toc"
+          button_.innerText = "show toc"
         }
 
         function function_display_toc() {
           if (toc_.style.display == "none") {
             toc_.style.display = ""
-            button_.innerText = "Hide Toc"
+            button_.innerText = "hide toc"
             localStorage.setItem("toc_preference", "show")
           } else {
             toc_.style.display = "none"
-            button_.innerText = "Show Toc"
+            button_.innerText = "show toc"
             localStorage.setItem("toc_preference", "hide")
           }
         }
