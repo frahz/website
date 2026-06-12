@@ -109,7 +109,7 @@ This include the ability to set your own callout emoji, title, and css style ele
 
 ```toml
 baseURL = "https://frahz.github.io/ion/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Ion"
 theme="ion"
 copyright = "© frahz"
