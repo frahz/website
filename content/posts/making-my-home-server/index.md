@@ -6,7 +6,7 @@ keywords = ["", ""]
 description = "A complete overview of how I built an efficient homelab from scratch, covering hardware selection, power management, and service deployment using NixOS and Docker."
 readingTime = true
 draft = true
-toc = false
+toc = true
 +++
 
 In early 2023, I got an itch to see what it would be like to have Linux installed on a bare metal PC, and I had the perfect situation for this as my old PC was just lying around collecting dust after I had to decommission it due to HDD failure. Over the course of the year, this turned more into a home lab as I kept adding more services and hardware into the mix.
@@ -188,4 +188,3 @@ In the future, I plan to add a proper backup solution using Restic to upload to 
 [Name Origin](https://www.nihongomaster.com/japanese/dictionary/word/16254/kumo-%E9%9B%B2-%E3%81%8F%E3%82%82): It's a server on the cloud
 
 - $6/mo Digital Ocean Basic Droplet
-
