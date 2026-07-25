@@ -1,42 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hola on frahz</title><link>https://frahz.dev/</link><description>Recent content in Hola on frahz</description><generator>Hugo</generator><language>en-us</language><copyright>© frahz</copyright><lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://frahz.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://frahz.dev/about/</link><pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate><guid>https://frahz.dev/about/</guid><description>&lt;h2 id="about-me">About me&lt;/h2>
-&lt;p>I&amp;rsquo;m just a guy that enjoys anything software and tinkering with hardware. Also, I like playing volleyball, soccer, anime, and video games. Here are some of my links:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/frahz">Github&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.linkedin.com/in/abreuf/">Linkedin&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bsky.app/profile/frahz.dev">Bluesky&lt;/a>&lt;/li>
-&lt;li>Discord: frahz&lt;/li>
-&lt;li>&lt;a href="https://anilist.co/user/frahz">Anilist&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="skills-and-technologies">Skills and Technologies&lt;/h2>
-&lt;ul>
-&lt;li>Programming Languages: Java, C++, C, Rust, Python&lt;/li>
-&lt;li>Technologies: Git, Linux, Android(AOSP), NixOS, Docker, SQLite, Bluetooth(LE/HCI), UWB, Node.js (very little)&lt;/li>
-&lt;li>Topics of Interest: microcontrollers, embedded devices, Bluetooth, low-level programming, want to try to get into networking or compilers/interpreters.&lt;/li>
-&lt;/ul>
-&lt;h2 id="work-experience">Work Experience&lt;/h2>
-&lt;h3 id="software-engineer--qualcomm--june-2022---present">&lt;strong>Software Engineer | Qualcomm | June 2022 - Present&lt;/strong>&lt;/h3>
-&lt;ul>
-&lt;li>Develop and maintain native Bluetooth/UWB drivers for Android devices running Qualcomm Snapdragon SoCs.&lt;/li>
-&lt;li>Collaborated with Google to implement Bluetooth LMP event hardware interfaces in AOSP
-enabling Digital Car Key (DCK) functionality.&lt;/li>
-&lt;li>Developed UWB/Bluetooth SoC crash dump protocol ensuring comprehensive log collection,
-native driver communication, and subsystem recovery after crashes.&lt;/li>
-&lt;/ul>
-&lt;h3 id="hardware-engineer-intern--repone-strength--jan-2022---may-2022">&lt;strong>Hardware Engineer Intern | RepOne Strength | Jan 2022 - May 2022&lt;/strong>&lt;/h3>
-&lt;ul>
-&lt;li>Lead the development and testing of hardware components for a 3D motion sensor. Ensure the reproducibility of all processes through comprehensive documentation.&lt;/li>
-&lt;li>Collaborate with colleagues to identify and resolve defects during testing. Ensure the highest quality for each component.&lt;/li>
-&lt;/ul>
-&lt;h3 id="undergrad-research-assistant--eps-lab-at-fiu--jan-2021---apr-2022">&lt;strong>Undergrad Research Assistant | EPS Lab at FIU | Jan 2021 - Apr 2022&lt;/strong>&lt;/h3>
-&lt;ul>
-&lt;li>Worked with a team to develop a learning environment for a big organization to improve the problem-solving skills of their workers.&lt;/li>
-&lt;li>Worked on the Advanced research on Integrating Emerging and Existing Systems (ARIES) team at EPS to do research on smart power grids and on how to connect multiple complex power systems into one, that can share information with one another.&lt;/li>
-&lt;/ul>
-&lt;h2 id="projects">Projects&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/frahz/rauly.rs">rauly.rs&lt;/a> (2021-2024), a Discord bot that can send the &lt;a href="dictionary.com">Word of the Day&lt;/a> at a designated time each day. Also, it can play music requested by the user.&lt;/li>
-&lt;li>&lt;a href="https://github.com/frahz/mdrop">mdrop&lt;/a> (2024-2025), a Linux CLI tool for controlling MOONDROP USB audio dongles, written in Rust.&lt;/li>
-&lt;li>&lt;a href="https://github.com/frahz/sugoi">sugoi&lt;/a> + &lt;a href="https://github.com/frahz/nemui">nemui&lt;/a> (2023-2025), small utilities to manage my homelab; they allow to wake/sleep on demand my power hungry server using Wake-On-LAN and TCP sockets.&lt;/li>
-&lt;li>&lt;a href="https://github.com/frahz/cyber-security">RF Hacking&lt;/a> (2019), use an Arduino MCU, with a transmitter and receiver, to intercept RF signals transmitted by a car key fob and then reuse that signal later on to open the car.&lt;/li>
-&lt;li>&lt;a href="https://github.com/SparkDevTeams/robotics-spring-21">Search and Rescue Robot&lt;/a> (2020-2021), control a rover, with live feed capabilities, using an Android app that communicates to a microcontroller using the MQTT protocol. Using that same microcontroller, we can send the real-time sensor data to the Android app, so that it can be displayed on the dashboard.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hola on frahz</title><link>https://frahz.dev/</link><description>Recent content in Hola on frahz</description><generator>Hugo</generator><language>en-us</language><copyright>© frahz</copyright><lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://frahz.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://frahz.dev/about/</link><pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate><guid>https://frahz.dev/about/</guid><description>&lt;h2 id="about-me"&gt;About me&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m just a guy that enjoys anything software and tinkering with hardware. Also, I like playing volleyball, soccer, anime, and video games. Here are some of my links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/frahz"&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.linkedin.com/in/abreuf/"&gt;Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bsky.app/profile/frahz.dev"&gt;Bluesky&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Discord: frahz&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://anilist.co/user/frahz"&gt;Anilist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="skills-and-technologies"&gt;Skills and Technologies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Programming Languages: Java, C++, C, Rust, Python&lt;/li&gt;
+&lt;li&gt;Technologies: Git, Linux, Android(AOSP), NixOS, Docker, SQLite, Bluetooth(LE/HCI), UWB, Node.js (very little)&lt;/li&gt;
+&lt;li&gt;Topics of Interest: microcontrollers, embedded devices, Bluetooth, low-level programming, want to try to get into networking or compilers/interpreters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="work-experience"&gt;Work Experience&lt;/h2&gt;
+&lt;h3 id="software-engineer--qualcomm--june-2022---present"&gt;&lt;strong&gt;Software Engineer | Qualcomm | June 2022 - Present&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop and maintain native Bluetooth/UWB drivers for Android devices running Qualcomm Snapdragon SoCs.&lt;/li&gt;
+&lt;li&gt;Collaborated with Google to implement Bluetooth LMP event hardware interfaces in AOSP
+enabling Digital Car Key (DCK) functionality.&lt;/li&gt;
+&lt;li&gt;Developed UWB/Bluetooth SoC crash dump protocol ensuring comprehensive log collection,
+native driver communication, and subsystem recovery after crashes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="hardware-engineer-intern--repone-strength--jan-2022---may-2022"&gt;&lt;strong&gt;Hardware Engineer Intern | RepOne Strength | Jan 2022 - May 2022&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lead the development and testing of hardware components for a 3D motion sensor. Ensure the reproducibility of all processes through comprehensive documentation.&lt;/li&gt;
+&lt;li&gt;Collaborate with colleagues to identify and resolve defects during testing. Ensure the highest quality for each component.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="undergrad-research-assistant--eps-lab-at-fiu--jan-2021---apr-2022"&gt;&lt;strong&gt;Undergrad Research Assistant | EPS Lab at FIU | Jan 2021 - Apr 2022&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Worked with a team to develop a learning environment for a big organization to improve the problem-solving skills of their workers.&lt;/li&gt;
+&lt;li&gt;Worked on the Advanced research on Integrating Emerging and Existing Systems (ARIES) team at EPS to do research on smart power grids and on how to connect multiple complex power systems into one, that can share information with one another.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="projects"&gt;Projects&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/frahz/rauly.rs"&gt;rauly.rs&lt;/a&gt; (2021-2024), a Discord bot that can send the &lt;a href="dictionary.com"&gt;Word of the Day&lt;/a&gt; at a designated time each day. Also, it can play music requested by the user.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/frahz/mdrop"&gt;mdrop&lt;/a&gt; (2024-2025), a Linux CLI tool for controlling MOONDROP USB audio dongles, written in Rust.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/frahz/sugoi"&gt;sugoi&lt;/a&gt; + &lt;a href="https://github.com/frahz/nemui"&gt;nemui&lt;/a&gt; (2023-2025), small utilities to manage my homelab; they allow to wake/sleep on demand my power hungry server using Wake-On-LAN and TCP sockets.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/frahz/cyber-security"&gt;RF Hacking&lt;/a&gt; (2019), use an Arduino MCU, with a transmitter and receiver, to intercept RF signals transmitted by a car key fob and then reuse that signal later on to open the car.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/SparkDevTeams/robotics-spring-21"&gt;Search and Rescue Robot&lt;/a&gt; (2020-2021), control a rover, with live feed capabilities, using an Android app that communicates to a microcontroller using the MQTT protocol. Using that same microcontroller, we can send the real-time sensor data to the Android app, so that it can be displayed on the dashboard.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
